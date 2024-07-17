@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    --bg-primary-1: 84, 21, 28;
+    --bg-primary-2: 18, 18, 18;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+.header {
+  background: linear-gradient(269.85deg, #54151c 0%, #121212 54.89%);
+}
+
+.footer {
+  background: linear-gradient(269.85deg, #54151C 0%, #121212 54.89%);
+}
+
+.search {
+  background: linear-gradient(269.85deg, #54151C 0%, #121212 54.89%);
+}
